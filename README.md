@@ -2,6 +2,10 @@
 
 > **📰 [Voir les news cybersécurité en direct](https://k3e9x.github.io/CyberNews/)**
 
+
+<img width="1075" height="759" alt="image" src="https://github.com/user-attachments/assets/ba946e56-b688-497e-9c73-42b680aadc69" />
+
+
 CyberNews is an autonomous workflow that collects the latest cybersecurity
 headlines, lets an LLM agent reason over them, and publishes a dark, minimalist
 brief on GitHub Pages – end to end with no manual touch.
