@@ -4,12 +4,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Evil Corporate Threat Briefing</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
     <style>
       :root {
         color-scheme: dark;
@@ -17,7 +11,7 @@
         --surface: rgba(14, 17, 24, 0.75);
         --border: rgba(148, 163, 184, 0.18);
         --accent: #7c5cff;
-        --accent-soft: rgba(124, 92, 255, 0.15);
+        --accent-soft: rgba(124, 92, 255, 0.18);
         --text: #f1f5f9;
         --muted: #94a3b8;
         font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
@@ -30,7 +24,7 @@
         min-height: 100vh;
         display: flex;
         justify-content: center;
-        padding: 3rem 1.5rem 4rem;
+        padding: 3rem 1.5rem 5rem;
         background:
           radial-gradient(120% 120% at 90% -10%, rgba(124, 92, 255, 0.35) 0%, rgba(5, 6, 10, 0) 60%),
           radial-gradient(100% 100% at -20% 0%, rgba(14, 165, 233, 0.18) 0%, rgba(5, 6, 10, 0) 55%),
@@ -38,24 +32,26 @@
         color: var(--text);
       }
       main {
-        width: min(920px, 100%);
-        backdrop-filter: blur(22px);
-        background: linear-gradient(145deg, rgba(12, 15, 22, 0.85), rgba(7, 9, 14, 0.65));
-        border: 1px solid var(--border);
-        border-radius: 28px;
-        padding: clamp(2.5rem, 5vw, 3.5rem);
-        box-shadow: 0 40px 90px -60px rgba(15, 23, 42, 0.85);
-      }
-      header {
+        width: min(960px, 100%);
         display: flex;
         flex-direction: column;
-        gap: 0.75rem;
-        margin-bottom: clamp(2rem, 6vw, 3rem);
+        gap: clamp(2.25rem, 5vw, 3rem);
+      }
+      header {
+        backdrop-filter: blur(22px);
+        background: linear-gradient(150deg, rgba(12, 15, 22, 0.85), rgba(7, 9, 14, 0.55));
+        border: 1px solid var(--border);
+        border-radius: 28px;
+        padding: clamp(2.5rem, 5vw, 3.25rem);
+        display: flex;
+        flex-direction: column;
+        gap: 0.85rem;
+        box-shadow: 0 40px 90px -60px rgba(15, 23, 42, 0.85);
       }
       .eyebrow {
         font-size: 0.85rem;
         text-transform: uppercase;
-        letter-spacing: 0.4em;
+        letter-spacing: 0.45em;
         color: var(--muted);
         opacity: 0.8;
       }
@@ -67,31 +63,80 @@
       p {
         margin: 0;
         color: var(--muted);
-        line-height: 1.7;
+        line-height: 1.75;
       }
-      .placeholder {
-        border: 1px solid var(--border);
-        border-radius: 20px;
-        padding: clamp(2rem, 5vw, 2.75rem);
-        text-align: left;
-        background: linear-gradient(160deg, rgba(124, 92, 255, 0.08), rgba(14, 17, 24, 0.5));
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: clamp(1.75rem, 4vw, 2.5rem);
+      }
+      article {
         position: relative;
-        overflow: hidden;
+        border-radius: 24px;
+        border: 1px solid var(--border);
+        background: linear-gradient(160deg, rgba(12, 16, 24, 0.95), rgba(10, 12, 18, 0.7));
+        padding: clamp(1.75rem, 4vw, 2.25rem);
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+        box-shadow: 0 26px 60px -50px rgba(15, 23, 42, 0.95);
+        transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
       }
-      .placeholder::after {
+      article::before {
         content: "";
         position: absolute;
         inset: 1px;
-        border-radius: 18px;
-        border: 1px dashed rgba(148, 163, 184, 0.35);
+        border-radius: 22px;
+        border: 1px solid rgba(124, 92, 255, 0.18);
+        opacity: 0;
+        transition: opacity 0.2s ease;
         pointer-events: none;
       }
-      .placeholder p {
-        max-width: 520px;
+      article:hover {
+        transform: translateY(-6px);
+        border-color: rgba(124, 92, 255, 0.45);
+        box-shadow: 0 36px 90px -55px rgba(124, 92, 255, 0.5);
+      }
+      article:hover::before {
+        opacity: 1;
+      }
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        font-size: 0.82rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--muted);
+      }
+      .meta span::before {
+        content: "•";
+        margin: 0 0.45rem;
+        opacity: 0.5;
+      }
+      .meta span:first-child::before {
+        content: "";
+        margin: 0;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      a:hover {
+        color: var(--accent);
+      }
+      ul {
+        margin: 0;
+        padding-left: 1.2rem;
+        display: grid;
+        gap: 0.55rem;
+      }
+      li {
+        color: var(--text);
       }
       code {
         font-family: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo, monospace;
-        font-size: 0.95rem;
+        font-size: 0.9rem;
         color: var(--text);
         background: rgba(15, 23, 42, 0.6);
         padding: 0.15rem 0.45rem;
@@ -99,11 +144,13 @@
         border: 1px solid rgba(148, 163, 184, 0.12);
       }
       footer {
-        margin-top: clamp(2.5rem, 7vw, 3.5rem);
         text-align: center;
         color: var(--muted);
         font-size: 0.9rem;
         opacity: 0.85;
+      }
+      footer p {
+        margin: 0;
       }
     </style>
   </head>
@@ -114,15 +161,580 @@
         <h1>Evil Corporate Threat Briefing</h1>
         <p>
           Autonomous daily digest of the most recent cybersecurity incidents,
-          advisories, and research. This placeholder page will be replaced once
-          the automated workflow runs.
+          advisories, and research. Generated on
+          <strong>03 November 2025 07:19 UTC</strong>.
         </p>
       </header>
-      <section class="placeholder">
-        <p>
-          Run <code>python scripts/update_news.py</code> locally or allow the
-          scheduled GitHub Actions workflow to populate the latest briefings.
-        </p>
+      <section class="grid">
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/security/university-of-pennsylvania-hacker-claims-1.2-million-donor-data-breach/" target="_blank" rel="noopener">
+              <h2>Penn hacker claims to have stolen 1.2 million donor records in data breach</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>02 Nov 2025 22:07 UTC</span>
+            
+            <span>Security</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Penn hacker claims to have stolen 1.2 million donor records in data breach A hacker has taken responsibility for last week's University of Pennsylvania "We got hacked" email incident, saying it was a far more extensive breach that exposed data on 1.2 million donors and internal d…</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/security/open-vsx-rotates-tokens-used-in-supply-chain-malware-attack/" target="_blank" rel="noopener">
+              <h2>Open VSX rotates access tokens used in supply-chain malware attack</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>02 Nov 2025 15:09 UTC</span>
+            
+            <span>Security</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Open VSX rotates access tokens used in supply-chain malware attack The Open VSX registry rotated access tokens after they were accidentally leaked by developers in public repositories and allowed threat actors to publish malicious extensions in an attempted supply-chain attack. […</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-going-meta-route-as-it-considers-memory-based-ads-on-chatgpt/" target="_blank" rel="noopener">
+              <h2>OpenAI is going Meta route, as it considers memory-based ads on ChatGPT</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>01 Nov 2025 20:00 UTC</span>
+            
+            <span>Artificial Intelligence, Technology</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>OpenAI is going Meta route, as it considers memory-based ads on ChatGPT OpenAI is planning to introduce ads on ChatGPT, as it continues to struggle with revenue from paid users. [...]</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/google/google-confirms-ai-search-will-have-ads-but-they-may-look-different/" target="_blank" rel="noopener">
+              <h2>Google confirms AI search will have ads, but they may look different</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>01 Nov 2025 16:56 UTC</span>
+            
+            <span>Google, Technology</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Google confirms AI search will have ads, but they may look different Google Ads are not going anywhere. Eventually, AI Search results on Google and likely other properties will have ads. [...]</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-build-262207051-released-with-ask-copilot-feature/" target="_blank" rel="noopener">
+              <h2>Windows 11 Build 26220.7051 released with “Ask Copilot” feature</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>01 Nov 2025 16:17 UTC</span>
+            
+            <span>Microsoft, Software</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Windows 11 Build 26220.7051 released with “Ask Copilot” feature Windows 11 Build 26220.7051 is now rolling out to testers in the Windows Insider Program, and there are at least three new features, including Ask Copilot in the taskbar. [...]</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/security/china-linked-hackers-exploited-lanscope-flaw-as-a-zero-day-in-attacks/" target="_blank" rel="noopener">
+              <h2>China-linked hackers exploited Lanscope flaw as a zero-day in attacks</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>01 Nov 2025 14:16 UTC</span>
+            
+            <span>Security</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>China-linked hackers exploited Lanscope flaw as a zero-day in attacks China-linked cyber-espionage actors tracked as 'Bronze Butler' (Tick) exploited a Motex Lanscope Endpoint Manager vulnerability as a zero-day to deploy an updated version of their Gokcpdoor malware. [...]</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://thehackernews.com/2025/11/asd-warns-of-ongoing-badcandy-attacks.html" target="_blank" rel="noopener">
+              <h2>ASD Warns of Ongoing BADCANDY Attacks Exploiting Cisco IOS XE Vulnerability</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>The Hacker News</span>
+            <span>01 Nov 2025 13:43 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>ASD Warns of Ongoing BADCANDY Attacks Exploiting Cisco IOS XE Vulnerability The Australian Signals Directorate (ASD) has issued a bulletin about ongoing cyber attacks targeting unpatched Cisco IOS XE devices in the country with a previously undocumented implant known as BADCANDY.…</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/microsoft/windows-11-tests-shared-bluetooth-audio-support-but-only-for-ai-pcs/" target="_blank" rel="noopener">
+              <h2>Windows 11 tests shared Bluetooth audio support, but only for AI PCs</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>31 Oct 2025 20:59 UTC</span>
+            
+            <span>Microsoft, Software</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Windows 11 tests shared Bluetooth audio support, but only for AI PCs If you have two headphones, speakers, earbuds, or any other Bluetooth hardware, you can now use both simultaneously on a Copilot+ PC. [...]</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.darkreading.com/cyberattacks-data-breaches/unc6384-european-diplomat-windows" target="_blank" rel="noopener">
+              <h2>UNC6384 Targets European Diplomatic Entities With Windows Exploit</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>darkreading</span>
+            <span>31 Oct 2025 20:07 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>UNC6384 Targets European Diplomatic Entities With Windows Exploit The spear-phishing campaign uses fake European Commission and NATO-themed lures to trick diplomatic personnel into clicking malicious links.</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.darkreading.com/cyberattacks-data-breaches/ribbon-communications-breach-latest-telecom-attack" target="_blank" rel="noopener">
+              <h2>Ribbon Communications Breach Marks Latest Telecom Attack</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>darkreading</span>
+            <span>31 Oct 2025 19:47 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Ribbon Communications Breach Marks Latest Telecom Attack The US telecom company disclosed that suspected nation-state actors first gained access to its network in December of last year, though it's unclear if attackers obtained sensitive data.</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/security/offensive-we-got-hacked-emails-sent-in-penn-security-incident/" target="_blank" rel="noopener">
+              <h2>‘We got hacked’ emails threaten to leak University of Pennsylvania data</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>31 Oct 2025 18:32 UTC</span>
+            
+            <span>Security</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>‘We got hacked’ emails threaten to leak University of Pennsylvania data The University of Pennsylvania suffered a cybersecurity incident on Friday, where students and alumni received a series of offensive emails from various University email addresses, claiming that data was stol…</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://thehackernews.com/2025/10/openai-unveils-aardvark-gpt-5-agent.html" target="_blank" rel="noopener">
+              <h2>OpenAI Unveils Aardvark: GPT-5 Agent That Finds and Fixes Code Flaws Automatically</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>The Hacker News</span>
+            <span>31 Oct 2025 17:19 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>OpenAI Unveils Aardvark: GPT-5 Agent That Finds and Fixes Code Flaws Automatically OpenAI has announced the launch of an "agentic security researcher" that's powered by its GPT-5 large language model (LLM) and is programmed to emulate a human expert capable of scanning, understan…</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-gets-scareware-sensor-for-faster-scam-detection/" target="_blank" rel="noopener">
+              <h2>Microsoft Edge gets scareware sensor for faster scam detection</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>31 Oct 2025 17:15 UTC</span>
+            
+            <span>Microsoft, Security</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Microsoft Edge gets scareware sensor for faster scam detection Microsoft is introducing a new scareware sensor for the Microsoft Edge web browser, which helps detect scam pages more quickly and ensures that Defender SmartScreen blocks them faster. [...]</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://thehackernews.com/2025/10/nation-state-hackers-deploy-new.html" target="_blank" rel="noopener">
+              <h2>Nation-State Hackers Deploy New Airstalk Malware in Suspected Supply Chain Attack</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>The Hacker News</span>
+            <span>31 Oct 2025 16:08 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Nation-State Hackers Deploy New Airstalk Malware in Suspected Supply Chain Attack A suspected nation-state threat actor has been linked to the distribution of a new malware called Airstalk as part of a likely supply chain attack.
+Palo Alto Networks Unit 42 said it's tracking the …</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/security/australia-warns-of-badcandy-infections-on-unpatched-cisco-devices/" target="_blank" rel="noopener">
+              <h2>Australia warns of BadCandy infections on unpatched Cisco devices</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>31 Oct 2025 15:38 UTC</span>
+            
+            <span>Security</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Australia warns of BadCandy infections on unpatched Cisco devices The Australian government is warning about ongoing cyberattacks against unpatched Cisco IOS XE devices in the country to infect routers with the BadCandy webshell. [...]</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/security/why-password-controls-still-matter-in-cybersecurity/" target="_blank" rel="noopener">
+              <h2>Why password controls still matter in cybersecurity</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>31 Oct 2025 14:02 UTC</span>
+            
+            <span>Security</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Why password controls still matter in cybersecurity Passwords still matter — and weak policies leave the door wide open. Specops Software explains how longer passphrases, smarter banned-password lists, and adaptive rotation strategies can strengthen security without frustrating u…</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://thehackernews.com/2025/10/china-linked-hackers-exploit-windows.html" target="_blank" rel="noopener">
+              <h2>China-Linked Hackers Exploit Windows Shortcut Flaw to Target European Diplomats</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>The Hacker News</span>
+            <span>31 Oct 2025 13:57 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>China-Linked Hackers Exploit Windows Shortcut Flaw to Target European Diplomats A China-affiliated threat actor known as UNC6384 has been linked to a fresh set of attacks exploiting an unpatched Windows shortcut vulnerability to target European diplomatic and government entities …</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/security/alleged-meduza-stealer-malware-admins-arrested-after-hacking-russian-org/" target="_blank" rel="noopener">
+              <h2>Alleged Meduza Stealer malware admins arrested after hacking Russian org</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>31 Oct 2025 13:45 UTC</span>
+            
+            <span>Security</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Alleged Meduza Stealer malware admins arrested after hacking Russian org The Russian authorities have arrested three individuals in Moscow who are believed to be the creators and operators of the Meduza Stealer information-stealing malware. [...]</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://thehackernews.com/2025/10/china-linked-tick-group-exploits.html" target="_blank" rel="noopener">
+              <h2>China-Linked Tick Group Exploits Lanscope Zero-Day to Hijack Corporate Systems</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>The Hacker News</span>
+            <span>31 Oct 2025 13:26 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>China-Linked Tick Group Exploits Lanscope Zero-Day to Hijack Corporate Systems The exploitation of a recently disclosed critical security flaw in Motex Lanscope Endpoint Manager has been attributed to a cyber espionage group known as Tick.
+The vulnerability, tracked as CVE-2025-6…</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.bleepingcomputer.com/news/security/cisa-linux-privilege-escalation-flaw-now-exploited-in-ransomware-attacks/" target="_blank" rel="noopener">
+              <h2>CISA: High-severity Linux flaw now exploited by ransomware gangs</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>BleepingComputer</span>
+            <span>31 Oct 2025 13:05 UTC</span>
+            
+            <span>Security</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>CISA: High-severity Linux flaw now exploited by ransomware gangs CISA confirmed on Thursday that a high-severity privilege escalation flaw in the Linux kernel is now being exploited in ransomware attacks. [...]</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://thehackernews.com/2025/10/the-msp-cybersecurity-readiness-guide.html" target="_blank" rel="noopener">
+              <h2>The MSP Cybersecurity Readiness Guide: Turning Security into Growth</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>The Hacker News</span>
+            <span>31 Oct 2025 11:30 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>The MSP Cybersecurity Readiness Guide: Turning Security into Growth MSPs are facing rising client expectations for strong cybersecurity and compliance outcomes, while threats grow more complex and regulatory demands evolve. Meanwhile, clients are increasingly seeking comprehensiv…</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.darkreading.com/cyber-risk/cybers-role-rapid-rise-digital-authoritarianism" target="_blank" rel="noopener">
+              <h2>Dark Reading Confidential: Cyber's Role in the Rapid Rise of Digital Authoritarianism</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>darkreading</span>
+            <span>31 Oct 2025 09:00 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Dark Reading Confidential: Cyber's Role in the Rapid Rise of Digital Authoritarianism Dark Reading Confidential Episode 11: Enterprise cyber teams are in prime position to push back against our current &quot;Golden Age of Surveillance,&quot; according to our guests Ronald Deibert…</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://thehackernews.com/2025/10/cisa-and-nsa-issue-urgent-guidance-to.html" target="_blank" rel="noopener">
+              <h2>CISA and NSA Issue Urgent Guidance to Secure WSUS and Microsoft Exchange Servers</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>The Hacker News</span>
+            <span>31 Oct 2025 08:46 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>CISA and NSA Issue Urgent Guidance to Secure WSUS and Microsoft Exchange Servers The U.S. Cybersecurity and Infrastructure Security Agency (CISA) and National Security Agency (NSA), along with international partners from Australia and Canada, have released guidance to harden on-p…</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://thehackernews.com/2025/10/eclipse-foundation-revokes-leaked-open.html" target="_blank" rel="noopener">
+              <h2>Eclipse Foundation Revokes Leaked Open VSX Tokens Following Wiz Discovery</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>The Hacker News</span>
+            <span>31 Oct 2025 08:02 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Eclipse Foundation Revokes Leaked Open VSX Tokens Following Wiz Discovery Eclipse Foundation, which maintains the open-source Open VSX project, said it has taken steps to revoke a small number of tokens that were leaked within Visual Studio Code (VS Code) extensions published in …</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://thehackernews.com/2025/10/cisa-flags-vmware-zero-day-exploited-by.html" target="_blank" rel="noopener">
+              <h2>CISA Flags VMware Zero-Day Exploited by China-Linked Hackers in Active Attacks</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>The Hacker News</span>
+            <span>31 Oct 2025 07:09 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>CISA Flags VMware Zero-Day Exploited by China-Linked Hackers in Active Attacks The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a high-severity security flaw impacting Broadcom VMware Tools and VMware Aria Operations to its Known Exploited Vulner…</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://thehackernews.com/2025/10/a-new-security-layer-for-macos-takes.html" target="_blank" rel="noopener">
+              <h2>A New Security Layer for macOS Takes Aim at Admin Errors Before Hackers Do</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>The Hacker News</span>
+            <span>31 Oct 2025 03:37 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>A New Security Layer for macOS Takes Aim at Admin Errors Before Hackers Do A design firm is editing a new campaign video on a MacBook Pro. The creative director opens a collaboration app that quietly requests microphone and camera permissions. MacOS is supposed to flag that, but …</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.darkreading.com/cyber-risk/zombie-projects-rise-again-undermine-security" target="_blank" rel="noopener">
+              <h2>Zombie Projects Rise Again to Undermine Security</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>darkreading</span>
+            <span>30 Oct 2025 23:36 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Zombie Projects Rise Again to Undermine Security Companies left them for dead, but the remnants of old infrastructure and failed projects continue to haunt businesses' security teams.</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.darkreading.com/vulnerabilities-threats/18-year-old-codebase-left-smart-buildings-wide-open" target="_blank" rel="noopener">
+              <h2>An 18-Year-Old Codebase Left Smart Buildings Wide Open</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>darkreading</span>
+            <span>30 Oct 2025 21:37 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>An 18-Year-Old Codebase Left Smart Buildings Wide Open Researcher Gjoko Krstic’s &quot;Project Brainfog&quot; exposed hundreds of zero-day vulnerabilities in building-automation systems still running hospitals, schools, and offices worldwide.</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.darkreading.com/cybersecurity-operations/us-refuses-sign-un-cybercrime-treaty" target="_blank" rel="noopener">
+              <h2>US Stands Out in Refusal to Sign UN Cybercrime Treaty</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>darkreading</span>
+            <span>30 Oct 2025 20:51 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>US Stands Out in Refusal to Sign UN Cybercrime Treaty The agreement aims to help law enforcement prosecute cross-border cybercrime, but the final treaty could allow unchecked surveillance and human-rights abuses, critics say; and, it includes no protection for pen testers.</p>
+            
+          </div>
+        </article>
+        
+        <article>
+          <header>
+            <a href="https://www.darkreading.com/ics-ot-security/claroty-patches-authentication-bypass-flaw" target="_blank" rel="noopener">
+              <h2>Critical Claroty Authentication Bypass Flaw Opened OT to Attack</h2>
+            </a>
+          </header>
+          <div class="meta">
+            <span>darkreading</span>
+            <span>30 Oct 2025 20:29 UTC</span>
+            
+          </div>
+          <div class="summary">
+            
+            <p>Critical Claroty Authentication Bypass Flaw Opened OT to Attack CVE-2025-54603 gave attackers an opening to disrupt critical operational technology (OT) environments and critical infrastructure, plus steal data from them.</p>
+            
+          </div>
+        </article>
+        
       </section>
       <footer>
         <p>
