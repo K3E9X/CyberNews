@@ -189,6 +189,14 @@
     "summary": "Fake Chrome Extension \u201cSafery\u201d Steals Ethereum Wallet Seed Phrases Using Sui Blockchain Cybersecurity researchers have uncovered a malicious Chrome extension that poses as a legitimate Ethereum wallet but harbors functionality to exfiltrate users' seed phrases.\nThe name of the ex\u2026",
     "title": "Fake Chrome Extension \u201cSafery\u201d Steals Ethereum Wallet Seed Phrases Using Sui Blockchain"
   },
+  "https://thehackernews.com/2025/11/five-us-citizens-plead-guilty-to.html": {
+    "categories": [],
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiZLSJZYH44phyXKQDmoGmkWealYMHJ_c95Ee6EYNEGqEKPn249Xacy2yylC7XobIDqYHHJNGtBy5zTs2R_XCq6Y0kKqlfYOk4rUrMR99N1NdsOcB1prH_8KEnZr7ywk-R03KJ5sDGzKv9Wx-ICZWlU4jSLvBOpxsi_Ckv5lZBh2n_2ASjVfD8yqueEEWn/s1600/north-hackers.jpg",
+    "published": "2025-11-15T10:21:00+00:00",
+    "source": "The Hacker News",
+    "summary": "Five Plead Guilty in U.S. for Helping North Korean IT Workers Infiltrate 136 Companies The U.S. Department of Justice (DoJ) on Friday announced that five individuals have pleaded guilty to assisting North Korea's illicit revenue generation schemes by enabling information technolo\u2026",
+    "title": "Five Plead Guilty in U.S. for Helping North Korean IT Workers Infiltrate 136 Companies"
+  },
   "https://thehackernews.com/2025/11/fortinet-fortiweb-flaw-actively.html": {
     "categories": [],
     "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh9W9UTKHr6MEohKLcpKi93cht-_Dh-uEOu4ga5ezZqlce29RSPo1X2cnCAUQijihCPVHaENo8Gz4jfDjcxHd3Gqe6_kqOt3Ff3-GikPzHA6pL-y_JFxlmuMxnRJKakGFfkOgBj7jW23nPrOKj0cz4BwGwbPICUA_ezilNl9UREzSuEixqNnukzxx0q0Aks/s1600/Fortinet-FortiWeb.jpg",
@@ -460,6 +468,14 @@
     "source": "The Hacker News",
     "summary": "Researchers Uncover BankBot-YNRK and DeliveryRAT Android Trojans Stealing Financial Data Cybersecurity researchers have shed light on two different Android trojans called BankBot-YNRK and DeliveryRAT that are capable of harvesting sensitive data from compromised devices.\nAccordin\u2026",
     "title": "Researchers Uncover BankBot-YNRK and DeliveryRAT Android Trojans Stealing Financial Data"
+  },
+  "https://thehackernews.com/2025/11/rondodox-exploits-unpatched-xwiki.html": {
+    "categories": [],
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9TCTqd165bW145DBMR-qSAvHA1l2PjOb-YZw0aprmzJb9_qRQsz0ZNFZ6zsnvEDcsv4bMnOJcAUYTiBKOrbVuXOROUZ1ZG7imQnFIp6QouU3F5gG2i_pHkCiDW2khhHHdVN2Ey-0_vDrdtB4AXyArktjeo6JLpAUowA2Lux2AHUarBJTHjcKS3lXz60e4/s1600/botnet.jpg",
+    "published": "2025-11-15T16:35:00+00:00",
+    "source": "The Hacker News",
+    "summary": "RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet The botnet malware known as RondoDox has been observed targeting unpatched XWiki instances against a critical security flaw that could allow attackers to achieve arbitrary code execution.\nThe vulnerabi\u2026",
+    "title": "RondoDox Exploits Unpatched XWiki Servers to Pull More Devices Into Its Botnet"
   },
   "https://thehackernews.com/2025/11/russian-hackers-create-4300-fake-travel.html": {
     "categories": [],
@@ -785,6 +801,17 @@
     "source": "BleepingComputer",
     "summary": "Microsoft testing faster Quick Machine Recovery in Windows 11 Microsoft is testing a faster version of Quick Machine Recovery (QMR) and updated Smart App Control (SAC), allowing users to toggle it without requiring a Windows clean install. [...]",
     "title": "Microsoft testing faster Quick Machine Recovery in Windows 11"
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-kb5068781-esu-update-may-fail-with-0x800f0922-errors/": {
+    "categories": [
+      "Microsoft",
+      "Security"
+    ],
+    "image": "",
+    "published": "2025-11-15T20:42:45+00:00",
+    "source": "BleepingComputer",
+    "summary": "Microsoft: Windows 10 KB5068781 ESU update may fail with 0x800f0922 errors Microsoft has confirmed it is investigating a bug causing the Windows 10 KB5068781 extended security update to fail to install with 0x800f0922 errors on devices with corporate licensing. [...]",
+    "title": "Microsoft: Windows 10 KB5068781 ESU update may fail with 0x800f0922 errors"
   },
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-home-and-pro-reach-end-of-support/": {
     "categories": [
@@ -1119,6 +1146,16 @@
     "summary": "Data breach at major Swedish software supplier impacts 1.5 million The Swedish Authority for Privacy Protection (IMY) is investigating a cyberattack on IT systems supplier Milj\u00f6data that exposed data belonging to 1.5 million people. [...]",
     "title": "Data breach at major Swedish software supplier impacts 1.5 million"
   },
+  "https://www.bleepingcomputer.com/news/security/decades-old-finger-protocol-abused-in-clickfix-malware-attacks/": {
+    "categories": [
+      "Security"
+    ],
+    "image": "",
+    "published": "2025-11-15T18:46:19+00:00",
+    "source": "BleepingComputer",
+    "summary": "Decades-old \u2018Finger\u2019 protocol abused in ClickFix malware attacks The decades-old \"finger\"\u00a0command is making a comeback,, with threat actors using the protocol to retrieve remote commands to execute on Windows devices. [...]",
+    "title": "Decades-old \u2018Finger\u2019 protocol abused in ClickFix malware attacks"
+  },
   "https://www.bleepingcomputer.com/news/security/doordash-hit-by-new-data-breach-in-october-exposing-user-information/": {
     "categories": [
       "Security"
@@ -1343,6 +1380,16 @@
     "source": "BleepingComputer",
     "summary": "ID verification laws are fueling the next wave of breaches ID laws are forcing companies to store massive amounts of sensitive data, turning compliance into a security risk. Acronis explains how integrated backup and cybersecurity platforms help MSPs reduce complexity and close t\u2026",
     "title": "ID verification laws are fueling the next wave of breaches"
+  },
+  "https://www.bleepingcomputer.com/news/security/jaguar-land-rover-cyberattack-cost-the-company-over-220-million/": {
+    "categories": [
+      "Security"
+    ],
+    "image": "",
+    "published": "2025-11-15T15:09:19+00:00",
+    "source": "BleepingComputer",
+    "summary": "Jaguar Land Rover cyberattack cost the company over $220 million Jaguar Land Rover (JLR) published its financial results for July 1 to September 30, warning that the cost of a recent cyberattack totaled \u00a3196 million ($220 million) in the quarter. [...]",
+    "title": "Jaguar Land Rover cyberattack cost the company over $220 million"
   },
   "https://www.bleepingcomputer.com/news/security/kerberoasting-in-2025-how-to-protect-your-service-accounts/": {
     "categories": [
