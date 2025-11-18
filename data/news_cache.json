@@ -62,6 +62,14 @@
     "summary": "The MSP Cybersecurity Readiness Guide: Turning Security into Growth MSPs are facing rising client expectations for strong cybersecurity and compliance outcomes, while threats grow more complex and regulatory demands evolve. Meanwhile, clients are increasingly seeking comprehensiv\u2026",
     "title": "The MSP Cybersecurity Readiness Guide: Turning Security into Growth"
   },
+  "https://thehackernews.com/2025/11/5-reasons-why-attackers-are-phishing.html": {
+    "categories": [],
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHSBFtlHKrVs9-Dj5zayONnKJJ7px_OH6p61JdLoA-MxIckL6ZKGIgAbOHty49BGJzpxEfzt74eWhHxrE3FH4YEOojboABz-KCAVTBA6BNM0yJ8OptrXIv6nlm20mm1s9-AhiLmpz5jStLnvjoYUS43OB0Fs35CgS3U8sAj34zNy_wpIipz2KJPLc8Am4/s1600/MAIN.jpg",
+    "published": "2025-11-17T11:55:00+00:00",
+    "source": "The Hacker News",
+    "summary": "5 Reasons Why Attackers Are Phishing Over LinkedIn Phishing attacks are no longer confined to the email inbox, with 1 in 3 phishing attacks now taking place over non-email channels like social media, search engines, and messaging apps.\nLinkedIn in particular has become a hotbed f\u2026",
+    "title": "5 Reasons Why Attackers Are Phishing Over LinkedIn"
+  },
   "https://thehackernews.com/2025/11/a-cybercrime-merger-like-no-other.html": {
     "categories": [],
     "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihGoqSoqWGCpoOD7hmLTjkWzWhFLusgvTr3g3RaGZWrSs_j4LAGbruNNztuHBQy5D835G8qsA6p2Go0Mw-aSoiHC7eY4-tGNEgXffrQPOIuEiEm0-n6gZHeq156nYnq9S_jRSk22aXI3X7aXXoCJwRRKdMN20Hf4M266ZMRZEsv7NhJTuPWBT6U3OlhQBE/s1600/hackers.jpg",
@@ -165,6 +173,14 @@
     "summary": "Cybercriminals Exploit Remote Monitoring Tools to Infiltrate Logistics and Freight Networks Bad actors are increasingly training their sights on trucking and logistics companies with an aim to infect them with remote monitoring and management (RMM) software for financial gain and\u2026",
     "title": "Cybercriminals Exploit Remote Monitoring Tools to Infiltrate Logistics and Freight Networks"
   },
+  "https://thehackernews.com/2025/11/dragon-breath-uses-roningloader-to.html": {
+    "categories": [],
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9N_SUrEcfHdyrM_8wzo21DFLFtDBZPlKPLyFLYRfQWYCS8wyhxYLj35JrSqYNFT9739fS9yXd3HSwlcTw4k3j-v96987CW9AWYoaC-BcCCnmTUJ09p7mk07aa1Cn9tYKOuUBS0GQ9oVgoKMfVCbhdWNVF4f5YdAvkAl2PeGDWEKBu1Q3BX58WfqowgUlX/s1600/malware-attack.jpg",
+    "published": "2025-11-17T11:20:00+00:00",
+    "source": "The Hacker News",
+    "summary": "Dragon Breath Uses RONINGLOADER to Disable Security Tools and Deploy Gh0st RAT The threat actor known as Dragon Breath has been observed making use of a multi-stage loader codenamed RONINGLOADER to deliver a modified variant of a remote access trojan called Gh0st RAT.\nThe campaig\u2026",
+    "title": "Dragon Breath Uses RONINGLOADER to Disable Security Tools and Deploy Gh0st RAT"
+  },
   "https://thehackernews.com/2025/11/enterprise-credentials-at-risk-same-old.html": {
     "categories": [],
     "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd2Yv8UnFMT4Cdqiokt06WlgBfY7dC-Pni1OsXd0sK8uXMitu2HZzwAQ0Q9obp1fCJ6AobPf3pvcROa1ldIKGs8xHPNe8KDlaLI1RLlstkQ3F2-IXQJ-myIn9cNQW75qU-nHYTHRjkgArMAas97dZ7jybO6I8YeBc-_jGRzs_qJh3P2IFFEcnYZ8Hotf4/s1600/OUTPOST24.jpg",
@@ -228,6 +244,14 @@
     "source": "The Hacker News",
     "summary": "GlassWorm Malware Discovered in Three VS Code Extensions with Thousands of Installs Cybersecurity researchers have disclosed a new set of three extensions associated with the GlassWorm campaign, indicating continued attempts on part of threat actors to target the Visual Studio Co\u2026",
     "title": "GlassWorm Malware Discovered in Three VS Code Extensions with Thousands of Installs"
+  },
+  "https://thehackernews.com/2025/11/google-issues-security-fix-for-actively.html": {
+    "categories": [],
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCEgNFzAj-mvy7UDCWYkUmxoSH_SYIJy6THFdmON12TKz7oNg_mQSAi4lNK-5NI1tG8106ieRb4dnWK8CNK2mOlkzK0HuyltjU237Z_oNH0sOJa1ZAUHlXQmzVEczd50DCfo4zpTN6nAqdVZoK9ZSqYK8LIgU0SeIgQWyoH7u0KOKTjnXgWga6e7a_ftvh/s1600/chrome-zeroday.jpg",
+    "published": "2025-11-18T04:44:00+00:00",
+    "source": "The Hacker News",
+    "summary": "Google Issues Security Fix for Actively Exploited Chrome V8 Zero-Day Vulnerability Google on Monday released security updates for its Chrome browser to address two security flaws, including one that has come under active exploitation in the wild.\nThe vulnerability in question is \u2026",
+    "title": "Google Issues Security Fix for Actively Exploited Chrome V8 Zero-Day Vulnerability"
   },
   "https://thehackernews.com/2025/11/google-launches-new-maps-feature-to.html": {
     "categories": [],
@@ -380,6 +404,14 @@
     "source": "The Hacker News",
     "summary": "New Browser Security Report Reveals Emerging Threats for Enterprises According to the new Browser Security Report 2025, security leaders are discovering that most identity, SaaS, and AI-related risks converge in a single place, the user\u2019s browser. Yet traditional controls like DL\u2026",
     "title": "New Browser Security Report Reveals Emerging Threats for Enterprises"
+  },
+  "https://thehackernews.com/2025/11/new-evalusion-clickfix-campaign.html": {
+    "categories": [],
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjThsbRJ_lhgrHOpVNJwYWI0Xc25nNa8uJ5J41VrEz8dv-B5UVNQcMoYyddfmhabn_nHz_rfrkgJbC8KYvOSwyfgbPRuCo08qaxLraEFbe-F2KQG2YoVj_pYae0ArE0YUKcx9ysHzNSGo5XCv0tz5LDsnmJTfPPLLsf7EYv3SJPhlWw5SN0yR9plhnJPTiY/s1600/clickfix.jpg",
+    "published": "2025-11-17T16:53:00+00:00",
+    "source": "The Hacker News",
+    "summary": "New EVALUSION ClickFix Campaign Delivers Amatera Stealer and NetSupport RAT Cybersecurity researchers have discovered malware campaigns using the now-prevalent ClickFix social engineering tactic to deploy Amatera Stealer and NetSupport RAT.\nThe activity, observed this month, is b\u2026",
+    "title": "New EVALUSION ClickFix Campaign Delivers Amatera Stealer and NetSupport RAT"
   },
   "https://thehackernews.com/2025/11/new-httptroy-backdoor-poses-as-vpn.html": {
     "categories": [],
@@ -581,6 +613,14 @@
     "summary": "[Webinar] Learn How Leading Security Teams Reduce Attack Surface Exposure with DASR Every day, security teams face the same problem\u2014too many risks, too many alerts, and not enough time. You fix one issue, and three more show up. It feels like you\u2019re always one step behind.\nBut wh\u2026",
     "title": "[Webinar] Learn How Leading Security Teams Reduce Attack Surface Exposure with DASR"
   },
+  "https://thehackernews.com/2025/11/weekly-recap-fortinet-exploited-chinas.html": {
+    "categories": [],
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjYrIvih8v801iuwvKwFIn6XEv3AU6PqcVoR_14uIenh52wn8RhXB3g2Bod_ktfErZTD-xDH_Chvyqlxw6dfYcjNShEgDd_jBrDXT_koU6zR0uB7iWBPVp8ERzmOpHzJIKZB2ycatBITb_ZZ-bhg2Nt99Uit0Ekjle_t84FIkMsJGdi2RPE3ICsXztDK1CD/s1600/recap-main.jpg",
+    "published": "2025-11-17T12:34:00+00:00",
+    "source": "The Hacker News",
+    "summary": "\u26a1 Weekly Recap: Fortinet Exploited, China's AI Hacks, PhaaS Empire Falls & More This week showed just how fast things can go wrong when no one\u2019s watching. Some attacks were silent and sneaky. Others used tools we trust every day \u2014 like AI, VPNs, or app stores \u2014 to cause damage wi\u2026",
+    "title": "\u26a1 Weekly Recap: Fortinet Exploited, China's AI Hacks, PhaaS Empire Falls & More"
+  },
   "https://thehackernews.com/2025/11/weekly-recap-hyper-v-malware-malicious.html": {
     "categories": [],
     "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihDn-ouAjSamS6qppMqJQp0muEjFRy3-Rs2m4u6iNunhDZUPSbi9CQMC1Ub8r7CFkHVo_7B98nwiZbsLlbg2Xq_Im67d6GvqaEaq3ZILZfZVhYafqJydsDCggwkh_n3q-XDcZJ_JLFalQ7E_KK-nYa9_YrOZl62NnyglLa5vmtdWPF7K9lH07l32yv72CI/s1600/recap-nov.jpg",
@@ -652,6 +692,17 @@
     "summary": "OpenAI plans to release GPT-5.1, GPT-5.1 Reasoning, and GPT-5.1 Pro OpenAI is preparing the GPT-5.1 family for public rollout. This includes GPT-5.1 (base), GPT-5.1 Reasoning, and GPT-5.1 Pro for those who pay a $200 monthly subscription. [...]",
     "title": "OpenAI plans to release GPT-5.1, GPT-5.1 Reasoning, and GPT-5.1 Pro"
   },
+  "https://www.bleepingcomputer.com/news/artificial-intelligence/xais-grok-41-rolls-out-with-improved-quality-and-speed-for-free/": {
+    "categories": [
+      "Artificial Intelligence",
+      "Technology"
+    ],
+    "image": "",
+    "published": "2025-11-17T22:56:28+00:00",
+    "source": "BleepingComputer",
+    "summary": "xAI's Grok 4.1 rolls out with improved quality and speed for free Elon Musk-owned xAI has started rolling out Grok 4.1, which is an upgrade to the existing Grok 4 model, and it delivers some incremental improvements. [...]",
+    "title": "xAI's Grok 4.1 rolls out with improved quality and speed for free"
+  },
   "https://www.bleepingcomputer.com/news/cryptocurrency/hacker-steals-over-120-million-from-balancer-defi-crypto-protocol/": {
     "categories": [
       "CryptoCurrency"
@@ -683,6 +734,17 @@
     "summary": "Google confirms AI search will have ads, but they may look different Google Ads are not going anywhere. Eventually,\u00a0AI Search results on Google and likely other properties will have ads. [...]",
     "title": "Google confirms AI search will have ads, but they may look different"
   },
+  "https://www.bleepingcomputer.com/news/google/google-gemini-3-spotted-on-ai-studio-ahead-of-imminent-release/": {
+    "categories": [
+      "Google",
+      "Artificial Intelligence"
+    ],
+    "image": "",
+    "published": "2025-11-17T21:52:21+00:00",
+    "source": "BleepingComputer",
+    "summary": "Google Gemini 3 spotted on AI Studio ahead of imminent release Gemini 3, which could be Google's best large language model, could begin rolling out in the next few days or hours, as the model has been spotted on AI Studio. [...]",
+    "title": "Google Gemini 3 spotted on AI Studio ahead of imminent release"
+  },
   "https://www.bleepingcomputer.com/news/microsoft/how-to-use-the-new-windows-11-start-menu-now-rolling-out/": {
     "categories": [
       "Microsoft",
@@ -694,6 +756,17 @@
     "source": "BleepingComputer",
     "summary": "How to use the new Windows 11 Start menu, now rolling out The Windows Start menu is getting its first major redesign since 2021 and will be rolled\u00a0out to everyone with the November 11 Patch Tuesday update. [...]",
     "title": "How to use the new Windows 11 Start menu, now rolling out"
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-aisuru-botnet-used-500-000-ips-in-15-tbps-azure-ddos-attack/": {
+    "categories": [
+      "Microsoft",
+      "Security"
+    ],
+    "image": "",
+    "published": "2025-11-17T17:13:15+00:00",
+    "source": "BleepingComputer",
+    "summary": "Microsoft: Azure hit by 15 Tbps DDoS attack using 500,000 IP addresses Microsoft said today that the Aisuru botnet hit its Azure network with a 15.72 terabits per second (Tbps) DDoS attack, launched from over 500,000 IP addresses. [...]",
+    "title": "Microsoft: Azure hit by 15 Tbps DDoS attack using 500,000 IP addresses"
   },
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-gets-scareware-sensor-for-faster-scam-detection/": {
     "categories": [
@@ -821,6 +894,17 @@
     "summary": "Microsoft: Windows 10 KB5068781 ESU update may fail with 0x800f0922 errors Microsoft has confirmed it is investigating a bug causing the Windows 10 KB5068781 extended security update to fail to install with 0x800f0922 errors on devices with corporate licensing. [...]",
     "title": "Microsoft: Windows 10 KB5068781 ESU update may fail with 0x800f0922 errors"
   },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-10-kb5072653-oob-update-fixes-esu-install-errors/": {
+    "categories": [
+      "Microsoft",
+      "Security"
+    ],
+    "image": "",
+    "published": "2025-11-18T00:22:11+00:00",
+    "source": "BleepingComputer",
+    "summary": "Microsoft: Windows 10 KB5072653 OOB update fixes ESU install errors Microsoft has released an emergency Windows 10 KB5072653 out-of-band update to resolve ongoing issues with installing the November extended security updates. [...]",
+    "title": "Microsoft: Windows 10 KB5072653 OOB update fixes ESU install errors"
+  },
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-23h2-home-and-pro-reach-end-of-support/": {
     "categories": [
       "Microsoft"
@@ -830,6 +914,16 @@
     "source": "BleepingComputer",
     "summary": "Microsoft: Windows 11 23H2 Home and Pro reach end of support Microsoft has reminded customers today that systems running Home and Pro editions of Windows 11 23H2 have stopped receiving security updates. [...]",
     "title": "Microsoft: Windows 11 23H2 Home and Pro reach end of support"
+  },
+  "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-bug-blocks-microsoft-365-desktop-app-installs/": {
+    "categories": [
+      "Microsoft"
+    ],
+    "image": "",
+    "published": "2025-11-17T14:54:31+00:00",
+    "source": "BleepingComputer",
+    "summary": "Microsoft: Windows bug blocks Microsoft 365 desktop app installs \u200bMicrosoft is working to resolve a known issue preventing users from installing the Microsoft 365 desktop apps on Windows devices. [...]",
+    "title": "Microsoft: Windows bug blocks Microsoft 365 desktop app installs"
   },
   "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-task-manager-wont-quit-after-kb5067036-update/": {
     "categories": [
@@ -1164,6 +1258,16 @@
     "summary": "Decades-old \u2018Finger\u2019 protocol abused in ClickFix malware attacks The decades-old \"finger\"\u00a0command is making a comeback,, with threat actors using the protocol to retrieve remote commands to execute on Windows devices. [...]",
     "title": "Decades-old \u2018Finger\u2019 protocol abused in ClickFix malware attacks"
   },
+  "https://www.bleepingcomputer.com/news/security/doordash-email-spoofing-vulnerability-sparks-messy-disclosure-dispute/": {
+    "categories": [
+      "Security"
+    ],
+    "image": "",
+    "published": "2025-11-17T16:32:09+00:00",
+    "source": "BleepingComputer",
+    "summary": "DoorDash email spoofing vulnerability sparks messy disclosure dispute A vulnerability in DoorDash's systems could allow anyone to send \"official\"\u00a0DoorDash-themed emails right from company's authorized servers,\u00a0paving a near-perfect phishing channel. DoorDash has now patched the i\u2026",
+    "title": "DoorDash email spoofing vulnerability sparks messy disclosure dispute"
+  },
   "https://www.bleepingcomputer.com/news/security/doordash-hit-by-new-data-breach-in-october-exposing-user-information/": {
     "categories": [
       "Security"
@@ -1173,6 +1277,26 @@
     "source": "BleepingComputer",
     "summary": "DoorDash hit by new data breach in October exposing user information DoorDash\u00a0has disclosed a\u00a0data breach that hit the food delivery platform\u00a0this October. Beginning yesterday evening, DoorDash, which serves millions of customers across the U.S., Canada, Australia, and New Zealan\u2026",
     "title": "DoorDash hit by new data breach in October exposing user information"
+  },
+  "https://www.bleepingcomputer.com/news/security/dutch-police-seizes-250-servers-used-by-bulletproof-hosting-service/": {
+    "categories": [
+      "Security"
+    ],
+    "image": "",
+    "published": "2025-11-17T19:19:31+00:00",
+    "source": "BleepingComputer",
+    "summary": "Dutch police seizes 250 servers used by \u201cbulletproof hosting\u201d service The police in the Netherlands have seized around 250 physical servers powering a bulletproof hosting service in the country used exclusively by cybercriminals for providing complete anonymity. [...]",
+    "title": "Dutch police seizes 250 servers used by \u201cbulletproof hosting\u201d service"
+  },
+  "https://www.bleepingcomputer.com/news/security/eurofiber-france-warns-of-breach-after-hacker-tries-to-sell-customer-data/": {
+    "categories": [
+      "Security"
+    ],
+    "image": "",
+    "published": "2025-11-17T21:14:28+00:00",
+    "source": "BleepingComputer",
+    "summary": "Eurofiber France warns of breach after hacker tries to sell customer data Eurofiber France disclosed a data breach it discovered late last week when hackers gained access to its ticket management system by exploiting a vulnerability and exfiltrated information. [...]",
+    "title": "Eurofiber France warns of breach after hacker tries to sell customer data"
   },
   "https://www.bleepingcomputer.com/news/security/european-police-dismantles-600-million-crypto-investment-fraud-ring/": {
     "categories": [
@@ -1462,6 +1586,17 @@
     "summary": "Malicious Android apps on Google Play downloaded 42 million times Hundreds of malicious Android apps on Google Play were downloaded more than 40 million times between June 2024 and May 2025, notes a report from cloud security company Zscaler. [...]",
     "title": "Malicious Android apps on Google Play downloaded 42 million times"
   },
+  "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-abuse-adspect-redirects-to-evade-security/": {
+    "categories": [
+      "Security",
+      "CryptoCurrency"
+    ],
+    "image": "",
+    "published": "2025-11-17T23:47:46+00:00",
+    "source": "BleepingComputer",
+    "summary": "Malicious NPM packages abuse Adspect redirects to evade security Seven\u00a0packages published on the\u00a0Node Package Manager (npm) registry\u00a0use the Adspect cloud-based service to separate researchers from potential victims and lead them to malicious locations. [...]",
+    "title": "Malicious NPM packages abuse Adspect redirects to evade security"
+  },
   "https://www.bleepingcomputer.com/news/security/malicious-nuget-packages-drop-disruptive-time-bombs/": {
     "categories": [
       "Security"
@@ -1574,6 +1709,16 @@
     "summary": "Open VSX rotates access tokens used in supply-chain malware attack The Open VSX registry rotated access tokens after they were accidentally leaked by developers in public repositories and allowed threat actors to publish malicious extensions in an attempted supply-chain attack. [\u2026",
     "title": "Open VSX rotates access tokens used in supply-chain malware attack"
   },
+  "https://www.bleepingcomputer.com/news/security/pennsylvania-ag-confirms-data-breach-after-inc-ransom-attack/": {
+    "categories": [
+      "Security"
+    ],
+    "image": "",
+    "published": "2025-11-17T15:57:48+00:00",
+    "source": "BleepingComputer",
+    "summary": "Pennsylvania AG confirms data breach after INC Ransom attack The office of Pennsylvania's attorney general has confirmed that the ransomware gang behind an August 2025 cyberattack stole files containing personal and medical information. [...]",
+    "title": "Pennsylvania AG confirms data breach after INC Ransom attack"
+  },
   "https://www.bleepingcomputer.com/news/security/police-disrupts-rhadamanthys-venomrat-and-elysium-malware-operations/": {
     "categories": [
       "Security"
@@ -1604,6 +1749,17 @@
     "source": "BleepingComputer",
     "summary": "Popular JavaScript library expr-eval vulnerable to RCE flaw A critical vulnerability in the popular expr-eval JavaScript library,\u00a0with over 800,000 weekly downloads on NPM, can be exploited to execute code remotely through maliciously crafted input. [...]",
     "title": "Popular JavaScript library expr-eval vulnerable to RCE flaw"
+  },
+  "https://www.bleepingcomputer.com/news/security/princeton-university-discloses-data-breach-affecting-donors-alumni/": {
+    "categories": [
+      "Security",
+      "Education"
+    ],
+    "image": "",
+    "published": "2025-11-17T19:36:52+00:00",
+    "source": "BleepingComputer",
+    "summary": "Princeton University discloses data breach affecting donors, alumni A Princeton University database was compromised in a cyberattack on November 10, exposing the personal information of alumni, donors, faculty members, and students. [...]",
+    "title": "Princeton University discloses data breach affecting donors, alumni"
   },
   "https://www.bleepingcomputer.com/news/security/qnap-fixes-seven-nas-zero-day-vulnerabilities-exploited-at-pwn2own/": {
     "categories": [
@@ -1644,6 +1800,16 @@
     "source": "BleepingComputer",
     "summary": "Rhadamanthys infostealer disrupted as cybercriminals lose server access The Rhadamanthys infostealer operation has been disrupted, with numerous \"customers\" of the malware-as-a-service reporting that they no longer have access to their servers. [...]",
     "title": "Rhadamanthys infostealer disrupted as cybercriminals lose server access"
+  },
+  "https://www.bleepingcomputer.com/news/security/rondodox-botnet-malware-now-hacks-servers-using-xwiki-flaw/": {
+    "categories": [
+      "Security"
+    ],
+    "image": "",
+    "published": "2025-11-17T22:41:30+00:00",
+    "source": "BleepingComputer",
+    "summary": "RondoDox botnet malware now hacks servers using XWiki flaw The RondoDox botnet malware is now exploiting a critical remote code execution (RCE) flaw in XWiki Platform tracked as CVE-2025-24893. [...]",
+    "title": "RondoDox botnet malware now hacks servers using XWiki flaw"
   },
   "https://www.bleepingcomputer.com/news/security/russian-hackers-abuse-hyper-v-to-hide-malware-in-linux-vms/": {
     "categories": [
@@ -1861,6 +2027,14 @@
     "source": "darkreading",
     "summary": "APT 'Bronze Butler' Exploits Zero-Day to Root Japan Orgs A critical security issue in a popular endpoint manager (CVE-2025-61932) allowed Chinese state-sponsored attackers to backdoor Japanese businesses.",
     "title": "APT 'Bronze Butler' Exploits Zero-Day to Root Japan Orgs"
+  },
+  "https://www.darkreading.com/application-security/critical-fortinet-fortiweb-waf-bug-exploited-in-wild": {
+    "categories": [],
+    "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blte7827fec4e3931d2/691b81ef720d0a180aeb0dfb/fire_wall_Russell_Kord_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+    "published": "2025-11-17T21:10:01+00:00",
+    "source": "darkreading",
+    "summary": "Critical Fortinet FortiWeb WAF Bug Exploited in the Wild The vulnerability could allow an unauthenticated attacker to remotely execute administrative commands.",
+    "title": "Critical Fortinet FortiWeb WAF Bug Exploited in the Wild"
   },
   "https://www.darkreading.com/application-security/hardened-containers-eliminate-common-source-vulnerabilities": {
     "categories": [],
@@ -2184,6 +2358,14 @@
     "summary": "Kimsuky APT Takes Over South Korean Androids, Abuses KakaoTalk Konni, a subset of the state-sponsored DPRK cyberespionage group, first exploits Google Find Hub, which ironically aims to protect lost Android devices, to remotely wipe devices.",
     "title": "Kimsuky APT Takes Over South Korean Androids, Abuses KakaoTalk"
   },
+  "https://www.darkreading.com/remote-workforce/us-citizens-plead-guilty-north-korean-it-worker": {
+    "categories": [],
+    "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blta914dabd8be71280/691b8c530d31a0d2389b8424/dprk_laptop_3Dgenerator_Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
+    "published": "2025-11-17T20:50:59+00:00",
+    "source": "darkreading",
+    "summary": "US Citizens Plead Guilty to Aiding North Korean IT Worker Campaigns Four individuals admitted to assisting foreign IT workers in gaining employment at US companies by providing false identities and remote access to employer-owned laptops.",
+    "title": "US Citizens Plead Guilty to Aiding North Korean IT Worker Campaigns"
+  },
   "https://www.darkreading.com/threat-intelligence/akira-raas-nutanix-vms-critical-orgs": {
     "categories": [],
     "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt45b4f2f2f8b69096/6917943f43e227caace3ecf6/Akira_film-Pictorial_Press_Ltd-Alamy.jpg?width=1280&auto=webp&quality=80&disable=upscale",
@@ -2230,6 +2412,14 @@
     "source": "darkreading",
     "summary": "Critical Site Takeover Flaw Affects 400K WordPress Sites Attackers are already targeting a vulnerability in the Post SMTP plug-in that allows them to fully compromise an account and website for nefarious purposes.",
     "title": "Critical Site Takeover Flaw Affects 400K WordPress Sites"
+  },
+  "https://www.darkreading.com/vulnerabilities-threats/cursor-issue-credential-stealing-attacks": {
+    "categories": [],
+    "image": "https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltb531c62d8c7850c2/691b083de4a3b0d7e104fd19/TippaPatt-AI-code-security-shutterstock.png?width=1280&auto=webp&quality=80&disable=upscale",
+    "published": "2025-11-17T15:42:38+00:00",
+    "source": "darkreading",
+    "summary": "Cursor Issue Paves Way for Credential-Stealing Attacks Researchers discovered a security weakness in the AI-powered coding tool that allows malicious MCP server to hijack Cursor's internal browser.",
+    "title": "Cursor Issue Paves Way for Credential-Stealing Attacks"
   },
   "https://www.darkreading.com/vulnerabilities-threats/kimsuky-httptroy-backdoor-south-korea-users": {
     "categories": [],
